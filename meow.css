@@ -70,6 +70,8 @@ body {
     border-radius: 10px;
     display: none;
     transition: 20s;
+    font-weight: bold;
+
 }
 #text2 {
     margin: 0 0 1em 0;
