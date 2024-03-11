@@ -46,17 +46,15 @@ body {
     color: aquamarine;
 }
 
-.cover {
-    height: 19vh;
-    width: 12%;
+.gift{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     transition: .5s;
 }
-.cover:hover{
+.gift:hover{
     scale: 1.2;
-}
-.gift{
-    height: 100%;
-    width: 100%;
 }
 
 #wind2{
