@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    cursor: url('./paws.png'), auto;
+}
+#pay {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: green;
+    display: none;
+}
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+.box1{
+    position: flex;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-size: 1.3rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.box2{
+    position: flex;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    color: aquamarine;
+}
+
+.cover {
+    height: 19vh;
+    width: 12%;
+    transition: .5s;
+}
+.cover:hover{
+    scale: 1.2;
+}
+.gift{
+    height: 100%;
+    width: 100%;
+}
+
+#wind2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 33em;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    background: rgba(238, 30, 144, 0.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(238, 30, 144,.9);
+    border-radius: 10px;
+    display: none;
+    transition: 20s;
+}
+#text2 {
+    margin: 0 0 1em 0;
+}
+
+#wind1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 33em;
+    padding: 50px;
+    transform: translate(-50%, -50%);
+    background: rgba(238, 30, 144, 0.9);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(238, 30, 144,.9);
+    border-radius: 10px;
+    display: none;
+    transition: 20s;
+}
+.anecdot{
+    font-size: 1.3em;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.button-27 {
+    appearance: none;
+    background-color: #000000;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 1em 0 0 0;
+    min-height: 1vh;
+    min-width: 0;
+    outline: none;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    will-change: transform;
+  }
+  
+  .button-27:disabled {
+    pointer-events: none;
+  }
+  
+  .button-27:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-27:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+
+/*СФФФФФФФФФФФКВВВВВВВВВВВВВВВВВВВ*/
+
+  .card {
+    background-color: #000000;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(233, 233, 233, 0.1);
+    padding: 20px;
+    width: 300px;
+    position: relative;
+}
+
+.chip {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.card-number {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #e4e4e4;
+    text-align: center;
+}
+
+.label {
+    color: #eeeeee;
+    font-size: 12px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.input-field {
+    background-color: #0e0e0e;
+    border: 1px solid #080808;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+    width: calc(100% - 22px);
+    margin-left: 11px;
+    box-sizing: border-box;
+}
+
+.expiry-cvv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.expiry, .cvv {
+    width: calc(50% - 10px);
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);;
+    color: rgba(238, 30, 144,.9);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.9);;
+}
